@@ -1,0 +1,12 @@
+specVersion: 0.35.0
+name: hello-python
+runtime: python
+registry: docker.io/agwermann
+image: docker.io/agwermann/hello-python:latest
+imageDigest: sha256:0800a74a8ed3301d215b0090773ef844c968d66be49d1b6a16bb3469fd659808
+created: 2023-07-22T18:32:00.34254-03:00
+build:
+  builder: pack
+  pvcSize: 256Mi
+deploy:
+  namespace: default
